@@ -90,6 +90,7 @@ Features:
   * Swaps HPD node coordinates (tr$lat80, tr$lon80).
   * Works with multiple HPD levels.
   * Optional plot for sanity check.
+
 Parameters:
 |  **Parameter**  |  **Type**   |  Default**  |            **Description**             |
 |-----------------|-------------|-------------|----------------------------------------|
