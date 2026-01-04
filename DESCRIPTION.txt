@@ -1,0 +1,14 @@
+Package: beastmcc
+Type: Package
+Title: Tools for BEAST MCC Tree Visualisation and Animation
+Version: 0.1.0
+Authors@R: person("Your","Name",email="you@email",role=c("aut","cre"))
+Description: Source-based and package-based tools for analysing,
+    plotting, and animating BEAST MCC trees with spatial and discrete traits.
+License: MIT
+Encoding: UTF-8
+LazyData: true
+Imports:
+    ape,
+    maps,
+    treeio
