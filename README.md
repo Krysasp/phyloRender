@@ -1,5 +1,5 @@
-#phyloRender – an R package for phylodynamic /phylogeographic analyses
-##Overview
+# phyloRender – an R package for phylodynamic /phylogeographic analyses
+## Overview
 phyloRender contains scripts to analyzing, and visualizing phylogenetic and mutation data. The package is a component of the ongoing development program that enables end-to-end phylogenetic workflows, from raw data handling to advanced visualization. phyloRlay performs all downstream analyses for outputs from Part I of phyloAct. The R functions were designed to manipulate, analyze, and visualize BEAST MCC phylogenetic trees with spatial and trait annotations. It supports:
 * Extracting tip coordinates and node metadata.
 * Adding discrete and continuous traits.
@@ -8,7 +8,7 @@ phyloRender contains scripts to analyzing, and visualizing phylogenetic and muta
 * Tree transformations (cladogram, radial, tip/branch highlighting).
 All functions are modular, allowing them to be integrated into your workflow in main script.
 ________________________________________
-##Table of Contents
+## Table of Contents
 * Tree Loading and Parsing
 * Trait Management
 * HPD Handling
@@ -17,7 +17,7 @@ ________________________________________
 * Examples
 * Support
 ________________________________________
-###1. Tree Loading and Parsing
+### 1. Tree Loading and Parsing
 read_mcc_tr()
 Purpose:
 Load a BEAST MCC tree, parse node and tip metadata, and compute node heights and posterior probabilities.
