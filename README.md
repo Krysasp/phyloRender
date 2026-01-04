@@ -136,13 +136,13 @@ write.csv(tr$fullset, "trait_matrix.csv")
 ```
 ________________________________________
 7. Support
-  •	Requirements:
-    o	R >= 4.4.2
-    o	Packages: ape, conicfit, graphics
-  •	Tips:
-      o	Use plotCheck=TRUE to verify transformations.
-      o	HPD ellipses allow visualization of uncertainty.
-      o	Functions are compatible with main.R pipeline.
-  •	Contact / Help:
-      o	Questions about usage, bug reports, or feature requests can be directed to jonatasp92@gmail.com
+  * Requirements:
+   * R >= 4.4.2
+   * Packages: ape, conicfit, graphics
+  * Tips:
+      * Use plotCheck=TRUE to verify transformations.
+      * HPD ellipses allow visualization of uncertainty.
+      * Functions are compatible with main.R pipeline.
+  * Contact / Help:
+      * Questions about usage, bug reports, or feature requests can be directed to jonatasp92@gmail.com
 ________________________________________
