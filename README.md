@@ -23,7 +23,7 @@ ________________________________________
 Purpose:
 Load a BEAST MCC tree, parse node and tip metadata, and compute node heights and posterior probabilities.
 Parameters:
-| **Parameter**	|	   **Type**			 |  **Default**	|   	      **Description**		                  |
+| **Parameter**	|	   **Type**			   |  **Default**	|   	      **Description**		                    |
 |---------------|------------------|--------------|---------------------------------------------- |
 |     trName    |      string      |         -    | Path to the tree file (.tre, .nexus)          |
 |      sep      |      string      |       `"\    |                   "`                          |
