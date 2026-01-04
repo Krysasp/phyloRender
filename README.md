@@ -1,11 +1,11 @@
-#phyloRender – an R package for phylodynamic /phylogeographic analyses
-##Overview
+# phyloRender – an R package for phylodynamic /phylogeographic analyses
+## Overview
 phyloRender contains scripts to analyzing, and visualizing phylogenetic and mutation data. The package is a component of the on-going development program (phyloAct) that enables end-to-end phylogenetic workflows, from raw data handling to advanced visualization. phyloRender performs all downstream analyses for outputs from Part I of phyloAct. The R functions were designed to manipulate, analyze, and visualize BEAST MCC phylogenetic trees with spatial and trait annotations. It supports:
-* Extracting tip coordinates and node metadata.
-* Adding discrete and continuous traits.
-* Managing Highest Posterior Density (HPD) intervals in latitude/longitude.
-* Flexible visualization, including swapping lat/lon, bounding ellipses, and animations.
-* Tree transformations (cladogram, radial, tip/branch highlighting).
+ * Extracting tip coordinates and node metadata.
+ * Adding discrete and continuous traits.
+ * Managing Highest Posterior Density (HPD) intervals in latitude/longitude.
+ * Flexible visualization, including swapping lat/lon, bounding ellipses, and animations.
+ * Tree transformations (cladogram, radial, tip/branch highlighting).
 
 All functions are **modular**, allowing them to be integrated into your workflow in main script.
 ________________________________________
@@ -64,10 +64,10 @@ Adds HPD intervals for tip latitude and longitude.
 Parameters:
   * latlonName – prefix of lat/lon in metadata (default "latlon").
   * hpdNum – HPD level to extract (e.g., 1 = 80% HPD).
-#### Future Enhancements:
-      * Multi-HPD extraction (support multiple HPD levels).
-      * Compute HPD centroids for visualization.
-      * Fit bounding ellipses to HPDs for plotting.
+Future Enhancements:
+ * Multi-HPD extraction (support multiple HPD levels).
+ * Compute HPD centroids for visualization.
+ * Fit bounding ellipses to HPDs for plotting.
 ```bash
 fit_HPDs_to_standard(tr, npts=50, ltol=0.005)
 ```
